@@ -2,7 +2,7 @@
 
 # a = 'bright'
 # a = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
-a = (1, 2, 3, 4, 5, 6, 7)
+a = (1, 2, 9, 8, 5, 6, 7)
 
 # res = a[1]     # Lấy phần tử theo chỉ số
 # res = a[-2]    # Lấy phần tử theo chỉ số ngược
