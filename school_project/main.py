@@ -18,5 +18,3 @@ if __name__ == "__main__":
             print("  - Kết quả học bổng: Không đủ điều kiện.")
     else:
         print(f"  - Không tìm thấy học sinh có ID: {student_id_1}")
-        
-    
