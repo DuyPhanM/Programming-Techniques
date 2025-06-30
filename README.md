@@ -1,0 +1,3 @@
+- Đọc kiến thức trong slide PDF
+- Các ví dụ trong slide được trình bày trong các file theo thứ tự được đánh số
+- Project school_project chứa ví dụ cho sử dụng hàm từ file khác, ngoài ra còn được dùng trong các bài tập trong chương trình
