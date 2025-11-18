@@ -2,17 +2,20 @@
 Kiểm soát giá trị nhập vào từ bàn phím chỉ gồm chữ và dấu cách,
 không có số và các ký tự đặc biệt, tối thiểu phải có 2 từ
 '''
-isValid = False
-while not isValid:
-    name = input('Nhập tên của bạn: ')
-    words = name.split()
-    if len(words) < 2:
-        continue
-    for i in range(len(words)):
-        if not words[i].isalpha():
-            break
-        if i == len(words) - 1:
-            isValid = True
+def enter_name():
+    words = []
+    isValid = False
+    while not isValid:
+        name = input('Nhập tên của bạn: ')
+        words = name.split()
+        if len(words) < 2:
+            continue
+        for i in range(len(words)):
+            if not words[i].isalpha():
+                break
+            if i == len(words) - 1:
+                isValid = True
+    return words
 
 def abbreviatedName(words):
     abb = ''
@@ -21,4 +24,5 @@ def abbreviatedName(words):
     abb += words[-1]
     return abb
 
+words = enter_name()
 print(abbreviatedName(words))
