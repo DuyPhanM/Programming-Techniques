@@ -16,7 +16,7 @@ def enter_name():
             break
     return words
 
-def abbreviatedName(words):
+def abbreviated_name(words):
     abb = ''
     for i in range(len(words) - 1):
         # Dùng sai phép biến đổi dữ liệu
@@ -26,4 +26,4 @@ abb += words[-1]
     return abb
 
 name = enter_name()
-print(abbreviatedName(name))
+print(abbreviated_name(name))
