@@ -1,11 +1,11 @@
 # Tính hóa đơn mua hàng
 
-prices = [120000, 2500, 12000, 18000]
-# Theo thứ tự là giá thịt lợn(kg), đậu phụ(miếng), cà chua(kg) và hành lá(kg)
+prices = [120000, 12000]
+# Theo thứ tự là giá của thịt lợn(kg) và cà chua(kg)
 
-pork, tofu, tomato, scallion = 0.3, 4, 0.5, 0.1
+pork, tomato = 0.3, 0.5
 
-payment = pork * prices[0] + tofu * prices[1] + tomato * prices[2] + scallion * prices[3]
+payment = pork * prices[0] + tomato * prices[1]
 
 print(f'Vui lòng thanh toán {int(payment)} VND.')
 
