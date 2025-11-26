@@ -1,5 +1,5 @@
-# Import hàm từ module grade.py (đặt ở một nhánh khác trong package school)
-# Dùng import tuyệt đối (absolute import) từ package gốc 'school'
+# Import hàm từ module khác
+# Dùng import tuyệt đối (absolute import)
 from school.student.grade.grade import avg_grade, grade_student_table
 
 def award_scholarship(student_id):
