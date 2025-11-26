@@ -1,4 +1,4 @@
-# Import hàm từ module khác
+# Import hàm từ module khác: reward gọi student
 # Dùng import tuyệt đối (absolute import)
 from school.student.grade.grade import avg_grade, grade_student_table
 
