@@ -1,5 +1,7 @@
-# Đăng ký tài khoản mới với tên đăng nhập là dạng chữ
-# và mật khẩu là dạng số, không chứa ký tự đặc biệt
+'''
+Đăng ký tài khoản mới với tên đăng nhập là dạng chữ,
+mật khẩu là dạng số và không chứa ký tự đặc biệt
+'''
 
 username = ''
 password = ''
