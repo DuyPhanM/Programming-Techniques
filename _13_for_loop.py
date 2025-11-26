@@ -1,5 +1,4 @@
-# Ngân hàng chỉ cho thử đăng nhập 5 lần
-# để bảo mật tài khoản khách hàng
+# Ngân hàng chỉ cho thử đăng nhập 5 lần để bảo vệ tài khoản khách hàng
 
 accounts = [
     {'username': 'alex', 'password': '300475'},
