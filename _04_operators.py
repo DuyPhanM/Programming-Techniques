@@ -12,21 +12,18 @@ print(b)
 
 # 2. Toán tử logic
 '''
-Một quán ăn phục vụ theo món ăn mà khách hàng bốc thăm được
-Quán sử dụng sợi bún và bánh đa
-Món ăn kèm gồm: cá, hải sản và thập cẩm
+Một chương trình bốc thăm trúng thưởng có thể lệ như sau:
+Bạn sẽ bốc 1 lá thăm từ hộp đỏ chứa 26 lá thăm chữ cái 
+và một lá thăm từ hộp xanh chứa 10 lá thăm con số
+Nếu 2 lá thăm bạn bốc được ghép được thành 'K3'
+Bạn sẽ trúng thưởng
 
-Giả sử An muốn ăn bún hải sản nhưng bốc thăm ra bún cá
+Kết quả rút thăm của bạn như sau
 '''
+red_ballot  = 'D'
+blue_ballot = '3'
 
-noodles = 'bún'
-#noodles = 'bánh đa'
-
-topping = "cá"
-#topping = "hải sản"
-#topping = "thập cẩm"
-
-choice = noodles == 'bún' and topping == "hải sản"
+choice = red_ballot == 'K' and blue_ballot == '3'
 
 print(choice)
 ###########################################################
@@ -39,3 +36,4 @@ a /= 2
 a /= 2
 
 print(a)
+
