@@ -1,4 +1,4 @@
-# Import dữ liệu từ module student_info.py (đặt trong thư mục ngang cấp)
+# Import hàm từ cùng module student
 # Dùng import tương đối (relative import)
 from ..student_info.student_info import students_data
 
