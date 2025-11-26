@@ -1,7 +1,7 @@
 '''
-Một quán cà phê hầu gái tuyển nhân viên làm việc theo ngày lễ 
-với thời gian làm việc và lương theo thỏa thuận riêng 
-hoặc với ca mặc định là 8h, lương 50k/giờ.
+Một quán cà phê hầu gái tuyển nhân viên làm việc theo ngày lẻ 
+với ca mặc định là 8h, lương 50k/giờ 
+hoặc với thời gian làm việc và lương theo thỏa thuận riêng .
 '''
 
 def day_salary(work_hours=8, hourly_rate=50):
