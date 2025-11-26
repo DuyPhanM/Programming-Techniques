@@ -1,4 +1,4 @@
-# Import hàm từ cùng module student
+# Import hàm từ cùng module: student gọi student
 # Dùng import tương đối (relative import)
 from ..student_info.student_info import students_data
 
